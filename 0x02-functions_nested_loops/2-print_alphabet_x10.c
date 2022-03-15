@@ -11,7 +11,7 @@
 void print_alphabet_x10(void)
 {
 	char c = 'a';
-	int i, k;
+	int k, i;
 
 	for (k = 0; k < 10; k++)
 	{
@@ -19,6 +19,6 @@ void print_alphabet_x10(void)
 		{
 			_putchar(c + k);
 		}
+		 _putchar(10);
 	}
-	_putchar(10);
 }
